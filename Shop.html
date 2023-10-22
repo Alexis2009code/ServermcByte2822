@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockByteMc Store</title>
+    <style>
+        body {
+            background-color: #0a4f6e; /* Colore azzurro scuro */
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #3498db; /* Colore azzurro */
+        }
+
+        #logo {
+            max-width: 100%;
+            height: auto;
+            max-height: 200px;
+            animation: logoScale 2s ease-in-out infinite;
+        }
+
+        .product {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+            background-color: #3498db; /* Colore azzurro */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .product:hover {
+            transform: scale(1.05); /* Ingrandisce il prodotto al passaggio del cursore */
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            max-height: 200px;
+        }
+
+        .product h2 {
+            color: white;
+        }
+
+        .product .price {
+            color: #e74c3c; /* Colore rosso */
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .product .buy-button {
+            background-color: #e74c3c; /* Colore rosso */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .product .buy-button:hover {
+            background-color: #c0392b; /* Cambia il colore al passaggio del cursore */
+        }
+
+        /* Animazione del logo */
+        @keyframes logoScale {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <img id="logo" src="logomc.png" alt="BlockByte MC Logo">
+    <h1>Benvenuto allo store di BlockByte MC!</h1>
+
+    <div class="product">
+        <img src="corruzione.jpeg" alt="Riammisione Discord/Mc">
+        <h2>(corruzione) Riammisione Ds o Mc</h2>
+        <p class="price">€10</p>
+        <a href="link_prodotto1.html" class="buy-button">Compra</a>
+    </div>
+
+    <div class="product">
+        <img src="vip-base.jpeg" alt="VIP BASE">
+        <h2>Vip Base</h2>
+        <p class="price">€10</p>
+        <a href="link_prodotto2.html" class="buy-button">Compra</a>
+    </div>
+
+    <div class="product">
+        <img src="vip-ultimate.jpeg" alt="VIP ULTIMATE">
+        <h2>Vip Ultimate</h2>
+        <p class="price">€15</p>
+        <a href="link_prodotto3.html" class="buy-button">Compra</a>
+    </div>
+</body>
+</html>
